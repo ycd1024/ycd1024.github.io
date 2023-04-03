@@ -1,11 +1,47 @@
-<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>doing--董彦辰的博客</title>
-</head>
-<body>
-  
-</body>
+    <head>
+        <meta charset="utf-8">
+        <title>Welcome to doblog</title>
+        <style>
+            ul {
+                list-style: none;/*用于去掉列表标记实心点*/
+                margin: 0;
+                padding: 0;
+                position: fixed;
+            }		
+            li {
+                float: left;
+                width: 20vw;
+                height: 5vh;
+            }
+            a:link, a:visited {
+                display: block;/*设置为块级元素*/
+                width: 100px;/*设置宽度为100像素*/
+                font-weight: bold;/*设置字体为加粗*/
+                color: white;/*设置字体为白色*/
+                background-color:#5AF;/*设置背景颜色为蓝色*/
+                text-align: center;/*设置文本居中显示*/
+                padding: 5px;/*设置各边内边距为5像素*/
+                text-decoration: none;/*去掉文本下划线*/
+            }
+            a:hover, a:active {
+                background-color:#006FDD;
+            }
+        </style>
+    </head>
+    <body>
+        <h3>导航栏菜单的设计与实现</h3>
+        <hr />
+		<!--导航栏-->
+        <nav>
+            <ul>
+                <li><a href="#">头条</a></li>
+				<li><a href="#">娱乐</a></li>
+                <li><a href="#">热点</a></li>
+                <li><a href="#">体育</a></li>
+                <li><a href="#">财经</a></li>
+                <li><a href="#">科技</a></li>
+            </ul>
+        </nav>
+    </body>
 </html>
