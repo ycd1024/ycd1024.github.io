@@ -15,9 +15,10 @@ body, html {
 }
 
 .btn {
+    position: fixed;
     width: 400px;
     margin: 0 auto;
-    width: 100vw;
+    width: 50vw;
     height: 10vh;
 }
 
