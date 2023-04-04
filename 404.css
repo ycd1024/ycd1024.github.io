@@ -17,9 +17,8 @@ body, html {
 .btn {
     width: 400px;
     margin: 0 auto;
-    max-width: 100%;
-    max-height: 80%;
-    margin-top: 40px;
+    width: 100vw;
+    height: 10vh;
 }
 
 .btn a {
