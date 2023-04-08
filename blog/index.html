@@ -1,68 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>文章列表效果</title>
     <style>
-        aside {
-            width: 200px;
-            height: 300px;
-        }
-
-        h3 {
-            font-size: 18px;
-            /* 设置字体大小 */
-            font-weight: 600;
-            /* 设置字体粗细 */
-
-            text-align: center;
-            /* 设置字体水平方向居中对齐 */
-        }
-
-        ul {
-            list-style: none;
-            /* 去掉无序列表的项目符号 */
-            padding: 0;
-            /* 去掉无序列表的项目符号所在空间 */
-        }
-
-        ul>li {
-            padding: 10px;
-            border-top: 1px dashed lightgrey;
-            /* 处理文本内容溢出后的情况 */
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
-
-        ul>li>a {
-            color: black;
-            text-decoration: none;
-            /* 去掉链接元素文本内容的下划线 */
-
-            white-space: nowrap;
-            /* 强制文本内容在一行显示 */
-        }
+              .data ul {
+      list-style: none;
+      margin-top: 5px;
+      }
+      .data ul li {
+      height: 30px;
+      }
+      .list {
+      margin: 0px 10px 20px;
+      text-align: left;
+      }
+      .list li {
+      width: 100%;
+      background: url(imgs/list_line_point.jpg) repeat-x;
+      font-size: 1.2em;
+      margin: 5px 0px 5px 0px;
+      }
+      .list li span.left {
+      background-color: #e3e3e3;
+      padding: 0px 13px 0px 13px;
+      }
+      .list li span.right {
+      float: right;
+      text-align: right;
+      background-color: #e3e3e3;
+      padding: 0px 13px 0px 13px;
+      }
     </style>
-</head>
+  </head>
 
-<body>
-    <!--
-    <aside>元素实现HTML页面侧边栏容器
- -->
-    <aside>
-        <!-- 定义侧边栏的标题 -->
-        <h3>文章列表</h3>
-        <!-- 定义文章列表 -->
-        <ul>
-            <li><a href="#">设计与构建静态网站</a></li>
-            <li><a href="#">JavaScript基础核心语法</a></li>
-            <li><a href="#">DOM编程艺术</a></li>
-            <li><a href="#">锋利的jQuery</a></li>
-            <li><a href="#">Ajax异步交互技术</a></li>
-            <li><a href="#">HTTP网络协议</a></li>
-        </ul>
-    </aside>
-</body>
-
+  <body>
+    <div class="data" id="data_list">
+      <ul id="data_list_ul" class="list">
+        <li>
+          <a
+            href="/Front/ArticleDetail/faf248f0-bce7-4b76-8ddf-14e728021b76"
+            target="_blank"
+          >
+            <span class="left"> 澳大利亚球手包揽中国业余公开赛男女组冠军</span>
+            <span class="right">2014-11-17</span></a
+          >
+        </li>
+        <li>
+          <a
+            href="/Front/ArticleDetail/426396fc-66b0-4853-9c53-2ac973ee9c77"
+            target="_blank"
+          >
+            <span class="left">美巡中国赛首个业余冠军诞生</span>
+            <span class="right">2014-11-17</span></a
+          >
+        </li>
+      </ul>
+    </div>
+  </body>
 </html>
