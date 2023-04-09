@@ -17,8 +17,6 @@ body{
 }
 .show{
     width: 100vw;
-    position: absolute;
-    top: 0px;
 }
 .show h1{
     color: white;
