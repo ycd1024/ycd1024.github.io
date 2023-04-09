@@ -15,3 +15,8 @@ body{
     border: none;
     width: 50px;
 }
+.show{
+    width: 100vw;
+    position: absolute;
+    top: 0px;
+}
