@@ -2,8 +2,9 @@ a {
     text-decoration: none;
 }
 
-body {
-    background-size:100%;background:url("https://pic1.zhimg.com/v2-0754b531abe95edbf174a2645baa7120_b.jpg") no-repeat;
+img{
+    width: 100vw;
+    height: 100vh;
 }
 
 .rtbox {
