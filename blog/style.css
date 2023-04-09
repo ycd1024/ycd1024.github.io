@@ -3,10 +3,8 @@ a {
 }
 
 body {
-    background-image: url("https://img.doooor.com/img/forum/201809/11/194857vj8cm8gm8q2nkmcj.jpg");
-    background-repeat: no-repeat;
-    background-size: 100vw 100vh;
-    -moz-background-size: 100% 100%;
+    background: url("https://img.doooor.com/img/forum/201809/11/194857vj8cm8gm8q2nkmcj.jpg") no-repeat center center;
+    background-size: 100% 100%;
 }
 
 .rtbox {
