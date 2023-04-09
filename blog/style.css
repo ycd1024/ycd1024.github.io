@@ -1,10 +1,8 @@
 a{
     text-decoration: none;
 }
-.background{
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
+body{
+    background-image: url("https://img.doooor.com/img/forum/201809/11/194857vj8cm8gm8q2nkmcj.jpg");
 }
 .rtbox{
     display: flex;
