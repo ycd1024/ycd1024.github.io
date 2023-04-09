@@ -20,3 +20,10 @@ body{
     position: absolute;
     top: 0px;
 }
+.show h1{
+    color: white;
+    font-size: 2em;
+}
+.show{
+    color: white;
+}
