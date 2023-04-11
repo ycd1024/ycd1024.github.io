@@ -3,7 +3,6 @@ a{
 }
 body{
     background-image: url("https://pic1.zhimg.com/v2-0754b531abe95edbf174a2645baa7120_b.jpg");
-    color: white;
 }
 .rtbox {
     display: flex;
